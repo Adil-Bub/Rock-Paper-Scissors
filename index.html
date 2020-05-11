@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock-Paper-Scissors</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<body>
+  	<div class="scoreWrapper">
+    		<div><h1 id="score">Score: </h1></div>
+  	</div>
+  	<div class="titleWrapper">
+    		<div id="disp"><h1></h1></div>
+    		<div>
+      		<h1 class="instruct">[Tap on any icon above player name]</h1>
+    		</div>
+  	</div>
+  	<div class="mainBlock">
+  		<div id="left">
+    			<input id=0 class="imgL" type="image" src="https://i.postimg.cc/d0CmTNnc/rock.png" onclick="game(this.id);" />
+			<input id=1 class="imgL" type="image" src="https://i.postimg.cc/xd3LnRm3/paper.png" onclick="game(this.id);"/>
+			<input id=2 class="imgL" type="image" src="https://i.postimg.cc/B6G555wL/scissors.png" onclick="game(this.id);"/>
+  		</div>
+  		<div id="right">
+    			<img id=10 class="imgR" src="https://i.postimg.cc/d0CmTNnc/rock.png"/>
+			<img id=11 class="imgR"  src="https://i.postimg.cc/xd3LnRm3/paper.png"/>
+			<img id=12 class="imgR"  src="https://i.postimg.cc/B6G555wL/scissors.png"/>
+  		</div> 
+  	</div>
+  	<div class="names">
+    		<div id="info"><h1></h1></div>
+    		<div id="computer"><h1>Computer</h1></div>
+  	</div>
+  	<div class="resetWrapper">  
+  		<button id="reset" onclick="resetGame();">Reset</button>
+  	</div>  
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
