@@ -1,0 +1,138 @@
+body{ 
+  	font-family: 'Aclonica';
+  	background-color: #ffbea7;  
+}
+.instruct{
+  	height: 60px;
+  	border: solid transparent;
+  	text-align: center;
+  	font-size: 12px;
+  	padding-top: 75px;
+}
+
+.names{
+  	border: solid transparent;
+  	height: 80px;
+  	position: relative;
+}
+#computer{
+  	position: absolute;  
+  	height: 80px;
+  	width: 165px;
+  	top:0;
+  	right:180px;
+  	font-size: 15px;
+}
+#info{ 
+  	height: 40px;
+  	width: 350px;
+  	margin-top: 16px; 
+  	margin-left: 90px;
+  	text-align: center;
+  	font-size: 35px;
+}
+.titleWrapper{
+  	height: 60px;
+  	top: 10px;
+  	border: solid transparent;
+  	position: relative;
+}
+#disp{  
+	position: absolute;
+  	margin:0;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 30px;
+}
+
+.scoreWrapper{
+  	height: 60px;
+  	width: 200px;
+  	top: 10px;
+  	right: 10px;
+  	float: right;
+  	border: solid;
+  	position: relative;
+}
+#score{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px; 
+	margin:0;
+ 	font-size: 20px;
+}
+.roundWrapper{
+  	height: 60px;
+  	width: 200px;
+  	top: 10px;
+  	left: 10px;
+  	float: left;
+  	border: solid;
+  	position: relative;
+}
+#round{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 60px; 
+	margin:0;
+ 	font-size: 20px;
+}
+.mainBlock{
+  	margin-top: 50px;
+  	height: 300px;
+  	margin-left: 80px;
+  	margin-right: 80px;
+  	text-align: center;
+
+}
+.imgR{
+  	padding-top: 120px;
+  	display: inline;
+  	width: 100px;
+  	padding-right: 20px;
+  	float: right;
+}
+.progress{
+  	display: inline;
+  	width: 150px;
+ 	float: left;
+  	outline: none;
+}
+.imgL{
+  	display: inline;
+  	float: left;
+  	padding-left: 20px;
+  	padding-top: 120px;
+	width: 100px;
+  	outline: none;
+}
+.progressComp{
+  	display: inline;
+  	width: 150px;
+  	float: right;
+}
+.resetWrapper{
+  	position: relative;
+  	height: 100px;
+  	width: 100%;
+  	margin-top: -70px;
+}
+#reset{
+  	width: 80px;
+  	height: 40px;
+  	position: absolute;
+  	margin:0;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	background: linear-gradient(to bottom, #d8671d 0%,#fd8a29 100%);
+  	border: none;
+  	border-radius: 3px;
+  	color: white;
+  	font-weight: 400;
+  	font-family: 'Aclonica';
+  	font-size: 15px;
+	box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+  	cursor: pointer;
+}
